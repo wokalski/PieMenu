@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C24BF45154FA74300084C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C24BF44154FA74300084C39 /* UIKit.framework */; };
+		3C24BF47154FA74300084C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C24BF46154FA74300084C39 /* Foundation.framework */; };
+		3C24BF49154FA74300084C39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C24BF48154FA74300084C39 /* CoreGraphics.framework */; };
+		3C24BF4F154FA74300084C39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF4D154FA74300084C39 /* InfoPlist.strings */; };
+		3C24BF51154FA74300084C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF50154FA74300084C39 /* main.m */; };
+		3C24BF55154FA74300084C39 /* WheelDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF54154FA74300084C39 /* WheelDemoAppDelegate.m */; };
+		3C24BF58154FA74300084C39 /* WheelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF57154FA74300084C39 /* WheelDemoViewController.m */; };
+		3C24BF5B154FA74300084C39 /* WheelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF59154FA74300084C39 /* WheelDemoViewController.xib */; };
+		3C24BF6C154FA76700084C39 /* CDCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF63154FA76700084C39 /* CDCircle.m */; };
+		3C24BF6D154FA76700084C39 /* CDCircleOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF65154FA76700084C39 /* CDCircleOverlayView.m */; };
+		3C24BF6E154FA76700084C39 /* CDCircleThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF67154FA76700084C39 /* CDCircleThumb.m */; };
+		3C24BF6F154FA76700084C39 /* CDIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF69154FA76700084C39 /* CDIconView.m */; };
+		3C24BF70154FA76700084C39 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF6B154FA76700084C39 /* Common.m */; };
+		3C24BF76154FA80200084C39 /* iPod Click.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF75154FA80200084C39 /* iPod Click.aiff */; };
+		3C24BF78154FA80C00084C39 /* icon_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF77154FA80C00084C39 /* icon_arrow_up.png */; };
+		3C24BF7A154FA82A00084C39 /* CDCircleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF79154FA82A00084C39 /* CDCircleGestureRecognizer.m */; };
+		3C24BF7D154FA86000084C39 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C24BF7C154FA86000084C39 /* AudioToolbox.framework */; };
+		3C24BF7F154FA86D00084C39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C24BF7E154FA86D00084C39 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C24BF40154FA74300084C39 /* Wheel demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheel demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C24BF44154FA74300084C39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C24BF46154FA74300084C39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C24BF48154FA74300084C39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C24BF4C154FA74300084C39 /* Wheel demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wheel demo-Info.plist"; sourceTree = "<group>"; };
+		3C24BF4E154FA74300084C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C24BF50154FA74300084C39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C24BF52154FA74300084C39 /* Wheel demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wheel demo-Prefix.pch"; sourceTree = "<group>"; };
+		3C24BF53154FA74300084C39 /* WheelDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WheelDemoAppDelegate.h; sourceTree = "<group>"; };
+		3C24BF54154FA74300084C39 /* WheelDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelDemoAppDelegate.m; sourceTree = "<group>"; };
+		3C24BF56154FA74300084C39 /* WheelDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WheelDemoViewController.h; sourceTree = "<group>"; };
+		3C24BF57154FA74300084C39 /* WheelDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelDemoViewController.m; sourceTree = "<group>"; };
+		3C24BF5A154FA74300084C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WheelDemoViewController.xib; sourceTree = "<group>"; };
+		3C24BF62154FA76700084C39 /* CDCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircle.h; sourceTree = "<group>"; };
+		3C24BF63154FA76700084C39 /* CDCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircle.m; sourceTree = "<group>"; };
+		3C24BF64154FA76700084C39 /* CDCircleOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleOverlayView.h; sourceTree = "<group>"; };
+		3C24BF65154FA76700084C39 /* CDCircleOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleOverlayView.m; sourceTree = "<group>"; };
+		3C24BF66154FA76700084C39 /* CDCircleThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleThumb.h; sourceTree = "<group>"; };
+		3C24BF67154FA76700084C39 /* CDCircleThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleThumb.m; sourceTree = "<group>"; };
+		3C24BF68154FA76700084C39 /* CDIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIconView.h; sourceTree = "<group>"; };
+		3C24BF69154FA76700084C39 /* CDIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIconView.m; sourceTree = "<group>"; };
+		3C24BF6A154FA76700084C39 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		3C24BF6B154FA76700084C39 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		3C24BF75154FA80200084C39 /* iPod Click.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "iPod Click.aiff"; sourceTree = "<group>"; };
+		3C24BF77154FA80C00084C39 /* icon_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_arrow_up.png; path = ../icon_arrow_up.png; sourceTree = "<group>"; };
+		3C24BF79154FA82A00084C39 /* CDCircleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleGestureRecognizer.m; sourceTree = "<group>"; };
+		3C24BF7B154FA84200084C39 /* CDCircleGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDCircleGestureRecognizer.h; sourceTree = "<group>"; };
+		3C24BF7C154FA86000084C39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3C24BF7E154FA86D00084C39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C24BF3D154FA74300084C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24BF7F154FA86D00084C39 /* QuartzCore.framework in Frameworks */,
+				3C24BF7D154FA86000084C39 /* AudioToolbox.framework in Frameworks */,
+				3C24BF45154FA74300084C39 /* UIKit.framework in Frameworks */,
+				3C24BF47154FA74300084C39 /* Foundation.framework in Frameworks */,
+				3C24BF49154FA74300084C39 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C24BF35154FA74200084C39 = {
+			isa = PBXGroup;
+			children = (
+				3C24BF7E154FA86D00084C39 /* QuartzCore.framework */,
+				3C24BF7C154FA86000084C39 /* AudioToolbox.framework */,
+				3C24BF4A154FA74300084C39 /* Wheel demo */,
+				3C24BF43154FA74300084C39 /* Frameworks */,
+				3C24BF41154FA74300084C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C24BF41154FA74300084C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C24BF40154FA74300084C39 /* Wheel demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C24BF43154FA74300084C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C24BF44154FA74300084C39 /* UIKit.framework */,
+				3C24BF46154FA74300084C39 /* Foundation.framework */,
+				3C24BF48154FA74300084C39 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C24BF4A154FA74300084C39 /* Wheel demo */ = {
+			isa = PBXGroup;
+			children = (
+				3C24BF53154FA74300084C39 /* WheelDemoAppDelegate.h */,
+				3C24BF54154FA74300084C39 /* WheelDemoAppDelegate.m */,
+				3C24BF56154FA74300084C39 /* WheelDemoViewController.h */,
+				3C24BF57154FA74300084C39 /* WheelDemoViewController.m */,
+				3C24BF59154FA74300084C39 /* WheelDemoViewController.xib */,
+				3C24BF61154FA76700084C39 /* Wheel */,
+				3C24BF4B154FA74300084C39 /* Supporting Files */,
+			);
+			path = "Wheel demo";
+			sourceTree = "<group>";
+		};
+		3C24BF4B154FA74300084C39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C24BF77154FA80C00084C39 /* icon_arrow_up.png */,
+				3C24BF75154FA80200084C39 /* iPod Click.aiff */,
+				3C24BF4C154FA74300084C39 /* Wheel demo-Info.plist */,
+				3C24BF4D154FA74300084C39 /* InfoPlist.strings */,
+				3C24BF50154FA74300084C39 /* main.m */,
+				3C24BF52154FA74300084C39 /* Wheel demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C24BF61154FA76700084C39 /* Wheel */ = {
+			isa = PBXGroup;
+			children = (
+				3C24BF62154FA76700084C39 /* CDCircle.h */,
+				3C24BF63154FA76700084C39 /* CDCircle.m */,
+				3C24BF64154FA76700084C39 /* CDCircleOverlayView.h */,
+				3C24BF65154FA76700084C39 /* CDCircleOverlayView.m */,
+				3C24BF66154FA76700084C39 /* CDCircleThumb.h */,
+				3C24BF67154FA76700084C39 /* CDCircleThumb.m */,
+				3C24BF68154FA76700084C39 /* CDIconView.h */,
+				3C24BF69154FA76700084C39 /* CDIconView.m */,
+				3C24BF6A154FA76700084C39 /* Common.h */,
+				3C24BF6B154FA76700084C39 /* Common.m */,
+				3C24BF7B154FA84200084C39 /* CDCircleGestureRecognizer.h */,
+				3C24BF79154FA82A00084C39 /* CDCircleGestureRecognizer.m */,
+			);
+			path = Wheel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C24BF3F154FA74300084C39 /* Wheel demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C24BF5E154FA74300084C39 /* Build configuration list for PBXNativeTarget "Wheel demo" */;
+			buildPhases = (
+				3C24BF3C154FA74300084C39 /* Sources */,
+				3C24BF3D154FA74300084C39 /* Frameworks */,
+				3C24BF3E154FA74300084C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wheel demo";
+			productName = "Wheel demo";
+			productReference = 3C24BF40154FA74300084C39 /* Wheel demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C24BF37154FA74200084C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WheelDemo;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3C24BF3A154FA74200084C39 /* Build configuration list for PBXProject "Wheel demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C24BF35154FA74200084C39;
+			productRefGroup = 3C24BF41154FA74300084C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C24BF3F154FA74300084C39 /* Wheel demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C24BF3E154FA74300084C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24BF4F154FA74300084C39 /* InfoPlist.strings in Resources */,
+				3C24BF5B154FA74300084C39 /* WheelDemoViewController.xib in Resources */,
+				3C24BF76154FA80200084C39 /* iPod Click.aiff in Resources */,
+				3C24BF78154FA80C00084C39 /* icon_arrow_up.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C24BF3C154FA74300084C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24BF51154FA74300084C39 /* main.m in Sources */,
+				3C24BF55154FA74300084C39 /* WheelDemoAppDelegate.m in Sources */,
+				3C24BF58154FA74300084C39 /* WheelDemoViewController.m in Sources */,
+				3C24BF6C154FA76700084C39 /* CDCircle.m in Sources */,
+				3C24BF6D154FA76700084C39 /* CDCircleOverlayView.m in Sources */,
+				3C24BF6E154FA76700084C39 /* CDCircleThumb.m in Sources */,
+				3C24BF6F154FA76700084C39 /* CDIconView.m in Sources */,
+				3C24BF70154FA76700084C39 /* Common.m in Sources */,
+				3C24BF7A154FA82A00084C39 /* CDCircleGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C24BF4D154FA74300084C39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C24BF4E154FA74300084C39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C24BF59154FA74300084C39 /* WheelDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C24BF5A154FA74300084C39 /* en */,
+			);
+			name = WheelDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C24BF5C154FA74300084C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C24BF5D154FA74300084C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C24BF5F154FA74300084C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wheel demo/Wheel demo-Prefix.pch";
+				INFOPLIST_FILE = "Wheel demo/Wheel demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C24BF60154FA74300084C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wheel demo/Wheel demo-Prefix.pch";
+				INFOPLIST_FILE = "Wheel demo/Wheel demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C24BF3A154FA74200084C39 /* Build configuration list for PBXProject "Wheel demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C24BF5C154FA74300084C39 /* Debug */,
+				3C24BF5D154FA74300084C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C24BF5E154FA74300084C39 /* Build configuration list for PBXNativeTarget "Wheel demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C24BF5F154FA74300084C39 /* Debug */,
+				3C24BF60154FA74300084C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C24BF37154FA74200084C39 /* Project object */;
+}
