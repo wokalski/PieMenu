@@ -18,7 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    CDCircle *circle = [[CDCircle alloc] initWithFrame:CGRectMake(10 , 90, 300, 300) numberOfSegments:6 ringWidth:80.f];
+    CDCircle *circle = [[CDCircle alloc] initWithFrame:CGRectMake(10 , 90, 300, 300) numberOfSegments:40 ringWidth:80.f];
     circle.dataSource = self;
     circle.delegate = self;
     CDCircleOverlayView *overlay = [[CDCircleOverlayView alloc] initWithCircle:circle];
