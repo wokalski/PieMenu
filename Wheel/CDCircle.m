@@ -75,9 +75,9 @@
     
     
     //Drawing Thumbs
-    
-    CGFloat perSectionDegrees = 360 / self.numberOfSegments;
-    CGFloat totalRotation = 360/self.numberOfSegments;
+    CGFloat fNumberOfSegments = self.numberOfSegments;
+    CGFloat perSectionDegrees = 360.f / fNumberOfSegments;
+    CGFloat totalRotation = 360.f / fNumberOfSegments;
     CGPoint centerPoint = CGPointMake(rect.size.width/2, rect.size.height/2);
     
     
