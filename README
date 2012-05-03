@@ -1,4 +1,4 @@
-To use CDPieMenu add following frameworks to your project:
+In order to use CDPieMenu add following frameworks to your project:
 CoreGraphics
 QuartzCore
 
