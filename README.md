@@ -15,7 +15,7 @@ View Hierarchy
 
 Methods
 -------
-###CDCircle's
+###CDCircle
 * -(id)initWithFrame:(CGRect) frame numberOfSegments:(NSUInteger) nSegments ringWidth:(CGFloat) ringWidth
 
 ####Delegate:
@@ -26,13 +26,13 @@ Methods
 
 * -(UIImage *) circle:(CDCircle *)circle iconForThumbAtRow:(NSInteger)row 
 
-###CDCircleOverlayView's
+###CDCircleOverlayView
 * -(id) initWithCircle:(CDCircle) circle
 
 Properties
 ----------
 
-###CDCircle's properties:
+###CDCircle:
 * dataSource - data source of CDPieMenu.
 * delegate - delegate of CDPieMenu
 * (UIColor *) circleColor - Set this property to change color of a circle. It may be usable when you want to achieve specyfic effect (e.g. semi transparent thumbs, and coloured circle will create some effect)
@@ -40,7 +40,7 @@ Properties
 * (CDCircleOverlayView *) overlayView - a pointer to CDCircleOverlayView
 
 
-###CDCircleThumb's:
+###CDCircleThumb:
 * (CDIconView *)iconView - a pointer to thumb's CDIconView
 * (UIColor *)separatorColor - color of a separator
 * separatorStyle - it can be CDCircleThumbsSeparatorNone or CDCircleThumbsSeparatorBasic. Style of a separator.
@@ -50,10 +50,10 @@ Properties
 * (UIColor *) arcColor - if gradientFill is set to 'NO' we can set thumb's color using this property.
 
 
-###CDIconView's:
+###CDIconView:
 * highlitedIconColor - color of an image when a thumb is selected
 
-###CDCircleOverlayView's:
+###CDCircleOverlayView:
 * overlayThumb - pointer to a thumb which is the selector (central thumb)
 
 
