@@ -114,7 +114,7 @@ CDPieMenu has been mentioned on:
 About me
 ========
 
-If you have got any question, feel free to mail me, my email address is: wczekalski@me.com
+If you have got any question, feel free to mail me at wczekalski@me.com
 ---------------------------------------------------------------------------------
 I want to hear from you if you use my code in your app. Just mail me with a link to the AppStore
 ------------------------------------------
