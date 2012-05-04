@@ -105,8 +105,8 @@ CDPieMenu is licensed under MIT license
 
 CDPieMenu has been mentioned on:
 ------------------------
-* [Maniacdev](ManiacDev.com)
-* [iOSDeveloperTips](iOSDeveloperTips.com)
+* [Maniacdev](http://ManiacDev.com)
+* [MobileDeveloperTips](http://MobileDeveloperTips.com)
 
 **Thank you guys for promotion**
 
