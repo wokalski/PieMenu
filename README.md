@@ -103,7 +103,7 @@ License
 CDPieMenu is licensed under MIT license
 
 
-CDPieMenu was listed on:
+CDPieMenu was mentioned on:
 ------------------------
 * ManiacDev.com
 * iOSDeveloperTips.com
