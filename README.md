@@ -38,7 +38,7 @@ Properties
 * (UIColor *) circleColor - Set this property to change color of a circle. It may be usable when you want to achieve specyfic effect (e.g. semi transparent thumbs, and coloured circle will create some effect)
 * (NSArray *) thumbs - all thumbs.
 * (CDCircleOverlayView *) overlayView - a pointer to CDCircleOverlayView
-
+* (BOOL) inertiaEffect - it determines appearance of additional rotation after the last touch.
 
 ###CDCircleThumb:
 * (CDIconView *)iconView - a pointer to thumb's CDIconView
