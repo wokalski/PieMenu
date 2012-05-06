@@ -5,6 +5,7 @@ CDPieMenu
 
 ##Planned improvements:
 * adding and removing thumbs during runtime.
+
 **I'll be glad to hear your requests**
 
 
