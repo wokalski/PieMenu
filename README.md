@@ -3,9 +3,9 @@ CDPieMenu
 
 ![CDPieMenu](http://i50.tinypic.com/ej2vd.png "Standard CDPieMenu")
 
-##Planned upgrades:
+##Planned improvements:
 * adding and removing thumbs during runtime.
-
+**I'll be glad to hear your requests**
 
 
 
