@@ -1,5 +1,10 @@
 CDPieMenu
 =========
+
+##Planned upgrades:
+* adding and removing thumbs during runtime.
+
+
 ![CDPieMenu](http://i50.tinypic.com/ej2vd.png "Standard CDPieMenu")
 
 
