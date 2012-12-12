@@ -1,4 +1,5 @@
-**CDPieMenu by Wojtek Czekalski (wczekalski)**
+CDPieMenu by Wojtek Czekalski (wczekalski)
+=========
 www: www.wczekalski.com
 =========
 
