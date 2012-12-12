@@ -123,6 +123,7 @@ About me
 ========
 
 If you have got any question, feel free to mail me at me@wczekalski.com
+www: wczekalski.com
 ---------------------------------------------------------------------------------
 I want to hear from you if you use my code in your app. Just send me a message with a link to the AppStore
 ------------------------------------------
