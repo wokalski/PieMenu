@@ -74,7 +74,7 @@
     
        
        CDCircle *view = (CDCircle *) [self view];
-       CGFloat flipintime;
+       CGFloat flipintime = 0;
        CGFloat angle = 0;
        if (view.inertiaeffect == YES) {
            CGFloat angleInRadians = atan2f(view.transform.b, view.transform.a) - currentTransformAngle;
@@ -101,7 +101,7 @@
        
        
               
-       [UIView animateWithDuration:flipintime delay:0.f options:UIViewAnimationCurveEaseOut animations:^{
+       [UIView animateWithDuration:flipintime delay:0.f options:UIViewAnimationOptionCurveEaseOut animations:^{
            [view setTransform:CGAffineTransformRotate(view.transform,angle)];
 
        } completion:^(BOOL finished) {

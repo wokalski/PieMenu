@@ -15,16 +15,17 @@
 		3C24BF55154FA74300084C39 /* WheelDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF54154FA74300084C39 /* WheelDemoAppDelegate.m */; };
 		3C24BF58154FA74300084C39 /* WheelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF57154FA74300084C39 /* WheelDemoViewController.m */; };
 		3C24BF5B154FA74300084C39 /* WheelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF59154FA74300084C39 /* WheelDemoViewController.xib */; };
-		3C24BF6C154FA76700084C39 /* CDCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF63154FA76700084C39 /* CDCircle.m */; };
-		3C24BF6D154FA76700084C39 /* CDCircleOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF65154FA76700084C39 /* CDCircleOverlayView.m */; };
-		3C24BF6E154FA76700084C39 /* CDCircleThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF67154FA76700084C39 /* CDCircleThumb.m */; };
-		3C24BF6F154FA76700084C39 /* CDIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF69154FA76700084C39 /* CDIconView.m */; };
-		3C24BF70154FA76700084C39 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF6B154FA76700084C39 /* Common.m */; };
 		3C24BF76154FA80200084C39 /* iPod Click.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF75154FA80200084C39 /* iPod Click.aiff */; };
 		3C24BF78154FA80C00084C39 /* icon_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF77154FA80C00084C39 /* icon_arrow_up.png */; };
-		3C24BF7A154FA82A00084C39 /* CDCircleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF79154FA82A00084C39 /* CDCircleGestureRecognizer.m */; };
 		3C24BF7D154FA86000084C39 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C24BF7C154FA86000084C39 /* AudioToolbox.framework */; };
 		3C24BF7F154FA86D00084C39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C24BF7E154FA86D00084C39 /* QuartzCore.framework */; };
+		DD54FB2816F8DF5A00697AF3 /* CDCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB1D16F8DF5A00697AF3 /* CDCircle.m */; };
+		DD54FB2916F8DF5A00697AF3 /* CDCircleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB1F16F8DF5A00697AF3 /* CDCircleGestureRecognizer.m */; };
+		DD54FB2A16F8DF5A00697AF3 /* CDCircleOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB2116F8DF5A00697AF3 /* CDCircleOverlayView.m */; };
+		DD54FB2B16F8DF5A00697AF3 /* CDCircleThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB2316F8DF5A00697AF3 /* CDCircleThumb.m */; };
+		DD54FB2C16F8DF5A00697AF3 /* CDIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB2516F8DF5A00697AF3 /* CDIconView.m */; };
+		DD54FB2D16F8DF5A00697AF3 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB2716F8DF5A00697AF3 /* Common.m */; };
+		DD54FB2F16F8DF7C00697AF3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD54FB2E16F8DF7C00697AF3 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,22 +42,23 @@
 		3C24BF56154FA74300084C39 /* WheelDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WheelDemoViewController.h; sourceTree = "<group>"; };
 		3C24BF57154FA74300084C39 /* WheelDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelDemoViewController.m; sourceTree = "<group>"; };
 		3C24BF5A154FA74300084C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WheelDemoViewController.xib; sourceTree = "<group>"; };
-		3C24BF62154FA76700084C39 /* CDCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircle.h; sourceTree = "<group>"; };
-		3C24BF63154FA76700084C39 /* CDCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircle.m; sourceTree = "<group>"; };
-		3C24BF64154FA76700084C39 /* CDCircleOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleOverlayView.h; sourceTree = "<group>"; };
-		3C24BF65154FA76700084C39 /* CDCircleOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleOverlayView.m; sourceTree = "<group>"; };
-		3C24BF66154FA76700084C39 /* CDCircleThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleThumb.h; sourceTree = "<group>"; };
-		3C24BF67154FA76700084C39 /* CDCircleThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleThumb.m; sourceTree = "<group>"; };
-		3C24BF68154FA76700084C39 /* CDIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIconView.h; sourceTree = "<group>"; };
-		3C24BF69154FA76700084C39 /* CDIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIconView.m; sourceTree = "<group>"; };
-		3C24BF6A154FA76700084C39 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		3C24BF6B154FA76700084C39 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		3C24BF75154FA80200084C39 /* iPod Click.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "iPod Click.aiff"; sourceTree = "<group>"; };
 		3C24BF77154FA80C00084C39 /* icon_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_arrow_up.png; path = ../icon_arrow_up.png; sourceTree = "<group>"; };
-		3C24BF79154FA82A00084C39 /* CDCircleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleGestureRecognizer.m; sourceTree = "<group>"; };
-		3C24BF7B154FA84200084C39 /* CDCircleGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDCircleGestureRecognizer.h; sourceTree = "<group>"; };
 		3C24BF7C154FA86000084C39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3C24BF7E154FA86D00084C39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD54FB1C16F8DF5A00697AF3 /* CDCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircle.h; sourceTree = "<group>"; };
+		DD54FB1D16F8DF5A00697AF3 /* CDCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircle.m; sourceTree = "<group>"; };
+		DD54FB1E16F8DF5A00697AF3 /* CDCircleGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleGestureRecognizer.h; sourceTree = "<group>"; };
+		DD54FB1F16F8DF5A00697AF3 /* CDCircleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleGestureRecognizer.m; sourceTree = "<group>"; };
+		DD54FB2016F8DF5A00697AF3 /* CDCircleOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleOverlayView.h; sourceTree = "<group>"; };
+		DD54FB2116F8DF5A00697AF3 /* CDCircleOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleOverlayView.m; sourceTree = "<group>"; };
+		DD54FB2216F8DF5A00697AF3 /* CDCircleThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleThumb.h; sourceTree = "<group>"; };
+		DD54FB2316F8DF5A00697AF3 /* CDCircleThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleThumb.m; sourceTree = "<group>"; };
+		DD54FB2416F8DF5A00697AF3 /* CDIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIconView.h; sourceTree = "<group>"; };
+		DD54FB2516F8DF5A00697AF3 /* CDIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIconView.m; sourceTree = "<group>"; };
+		DD54FB2616F8DF5A00697AF3 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		DD54FB2716F8DF5A00697AF3 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		DD54FB2E16F8DF7C00697AF3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,7 @@
 		3C24BF35154FA74200084C39 = {
 			isa = PBXGroup;
 			children = (
-				3C24BF7E154FA86D00084C39 /* QuartzCore.framework */,
-				3C24BF7C154FA86000084C39 /* AudioToolbox.framework */,
+				DD54FB2E16F8DF7C00697AF3 /* Default-568h@2x.png */,
 				3C24BF4A154FA74300084C39 /* Wheel demo */,
 				3C24BF43154FA74300084C39 /* Frameworks */,
 				3C24BF41154FA74300084C39 /* Products */,
@@ -97,6 +98,8 @@
 		3C24BF43154FA74300084C39 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3C24BF7E154FA86D00084C39 /* QuartzCore.framework */,
+				3C24BF7C154FA86000084C39 /* AudioToolbox.framework */,
 				3C24BF44154FA74300084C39 /* UIKit.framework */,
 				3C24BF46154FA74300084C39 /* Foundation.framework */,
 				3C24BF48154FA74300084C39 /* CoreGraphics.framework */,
@@ -112,7 +115,7 @@
 				3C24BF56154FA74300084C39 /* WheelDemoViewController.h */,
 				3C24BF57154FA74300084C39 /* WheelDemoViewController.m */,
 				3C24BF59154FA74300084C39 /* WheelDemoViewController.xib */,
-				3C24BF61154FA76700084C39 /* Wheel */,
+				DD54FB1B16F8DF5A00697AF3 /* Wheel */,
 				3C24BF4B154FA74300084C39 /* Supporting Files */,
 			);
 			path = "Wheel demo";
@@ -131,23 +134,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3C24BF61154FA76700084C39 /* Wheel */ = {
+		DD54FB1B16F8DF5A00697AF3 /* Wheel */ = {
 			isa = PBXGroup;
 			children = (
-				3C24BF62154FA76700084C39 /* CDCircle.h */,
-				3C24BF63154FA76700084C39 /* CDCircle.m */,
-				3C24BF64154FA76700084C39 /* CDCircleOverlayView.h */,
-				3C24BF65154FA76700084C39 /* CDCircleOverlayView.m */,
-				3C24BF66154FA76700084C39 /* CDCircleThumb.h */,
-				3C24BF67154FA76700084C39 /* CDCircleThumb.m */,
-				3C24BF68154FA76700084C39 /* CDIconView.h */,
-				3C24BF69154FA76700084C39 /* CDIconView.m */,
-				3C24BF6A154FA76700084C39 /* Common.h */,
-				3C24BF6B154FA76700084C39 /* Common.m */,
-				3C24BF7B154FA84200084C39 /* CDCircleGestureRecognizer.h */,
-				3C24BF79154FA82A00084C39 /* CDCircleGestureRecognizer.m */,
+				DD54FB1C16F8DF5A00697AF3 /* CDCircle.h */,
+				DD54FB1D16F8DF5A00697AF3 /* CDCircle.m */,
+				DD54FB1E16F8DF5A00697AF3 /* CDCircleGestureRecognizer.h */,
+				DD54FB1F16F8DF5A00697AF3 /* CDCircleGestureRecognizer.m */,
+				DD54FB2016F8DF5A00697AF3 /* CDCircleOverlayView.h */,
+				DD54FB2116F8DF5A00697AF3 /* CDCircleOverlayView.m */,
+				DD54FB2216F8DF5A00697AF3 /* CDCircleThumb.h */,
+				DD54FB2316F8DF5A00697AF3 /* CDCircleThumb.m */,
+				DD54FB2416F8DF5A00697AF3 /* CDIconView.h */,
+				DD54FB2516F8DF5A00697AF3 /* CDIconView.m */,
+				DD54FB2616F8DF5A00697AF3 /* Common.h */,
+				DD54FB2716F8DF5A00697AF3 /* Common.m */,
 			);
-			path = Wheel;
+			name = Wheel;
+			path = ../../Wheel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,7 +181,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WheelDemo;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 3C24BF3A154FA74200084C39 /* Build configuration list for PBXProject "Wheel demo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -205,6 +209,7 @@
 				3C24BF5B154FA74300084C39 /* WheelDemoViewController.xib in Resources */,
 				3C24BF76154FA80200084C39 /* iPod Click.aiff in Resources */,
 				3C24BF78154FA80C00084C39 /* icon_arrow_up.png in Resources */,
+				DD54FB2F16F8DF7C00697AF3 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +223,12 @@
 				3C24BF51154FA74300084C39 /* main.m in Sources */,
 				3C24BF55154FA74300084C39 /* WheelDemoAppDelegate.m in Sources */,
 				3C24BF58154FA74300084C39 /* WheelDemoViewController.m in Sources */,
-				3C24BF6C154FA76700084C39 /* CDCircle.m in Sources */,
-				3C24BF6D154FA76700084C39 /* CDCircleOverlayView.m in Sources */,
-				3C24BF6E154FA76700084C39 /* CDCircleThumb.m in Sources */,
-				3C24BF6F154FA76700084C39 /* CDIconView.m in Sources */,
-				3C24BF70154FA76700084C39 /* Common.m in Sources */,
-				3C24BF7A154FA82A00084C39 /* CDCircleGestureRecognizer.m in Sources */,
+				DD54FB2816F8DF5A00697AF3 /* CDCircle.m in Sources */,
+				DD54FB2916F8DF5A00697AF3 /* CDCircleGestureRecognizer.m in Sources */,
+				DD54FB2A16F8DF5A00697AF3 /* CDCircleOverlayView.m in Sources */,
+				DD54FB2B16F8DF5A00697AF3 /* CDCircleThumb.m in Sources */,
+				DD54FB2C16F8DF5A00697AF3 /* CDIconView.m in Sources */,
+				DD54FB2D16F8DF5A00697AF3 /* Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +260,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -280,6 +289,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
