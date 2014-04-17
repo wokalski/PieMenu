@@ -1,7 +1,5 @@
 CDPieMenu by Wojtek Czekalski (wczekalski)
 =========
-www: www.wczekalski.com
-=========
 
 ![CDPieMenu](http://i50.tinypic.com/ej2vd.png "Standard CDPieMenu")
 
@@ -11,60 +9,58 @@ www: www.wczekalski.com
 **I'll be glad to hear your requests**
 
 
-
-
 View Hierarchy
 --------------
-* CDCircle - is UIView subclass. It's, let's say, the base of a CDPieMenu. It's a circle drawn using CoreGraphics/QuartzCore.
+* `CDCircle` - is a `UIView` subclass. It's, let's say, the base of a `CDPieMenu`. It's a circle drawn using CoreGraphics/QuartzCore.
 
-* CDCircleThumb - UIView subclass, is a single segment in a CDPieMenu. It's subview of a CDCircle. Highly customisable. More information about modifying a thumb is listed below.
+* `CDCircleThumb` - `UIView` subclass, is a single segment in a `CDPieMenu`. It's subview of a `CDCircle`. Highly customisable. More information about modifying a thumb is listed below.
 
-* CDIconView - UIImageView subclass, it handles colouring of an icon. CDIconView is subview of a CDCircleThumb.
+* `CDIconView` - `UIImageView` subclass, it handles colouring of an icon. `CDIconView` is subview of a `CDCircleThumb`.
 
-* CDCircleOverlayView - this is independent view outside of the main view hierarchy. It handles selection of a thumb. It cannot be subview of a CDCircle because then, it would turn around with a circle.
+* `CDCircleOverlayView` - this is independent view outside of the main view hierarchy. It handles selection of a thumb. It cannot be subview of a `CDCircle` because then, it would turn around with a circle.
 
 Methods
 -------
-###CDCircle
-* -(id)initWithFrame:(CGRect) frame numberOfSegments:(NSUInteger) nSegments ringWidth:(CGFloat) ringWidth
+#####CDCircle
+* `-(id)initWithFrame:(CGRect) frame numberOfSegments:(NSUInteger) nSegments ringWidth:(CGFloat) ringWidth`
 
-####Delegate:
+#####Delegate:
 
-* -(void) circle:(CDCircle *)circle didMoveToSegment:(NSInteger)segment thumb:(CDCircleThumb *)thumb
+* `-(void) circle:(CDCircle *)circle didMoveToSegment:(NSInteger)segment thumb:(CDCircleThumb *)thumb`
 
-####Data source:
+#####Data source:
 
-* -(UIImage *) circle:(CDCircle *)circle iconForThumbAtRow:(NSInteger)row 
+* `-(UIImage *) circle:(CDCircle *)circle iconForThumbAtRow:(NSInteger)row`
 
-###CDCircleOverlayView
-* -(id) initWithCircle:(CDCircle) circle
+#####CDCircleOverlayView
+* `-(id) initWithCircle:(CDCircle) circle`
 
 Properties
 ----------
 
-###CDCircle:
-* dataSource - data source of CDPieMenu.
-* delegate - delegate of CDPieMenu
-* (UIColor *) circleColor - Set this property to change color of a circle. It may be usable when you want to achieve specyfic effect (e.g. semi transparent thumbs, and coloured circle will create some effect)
-* (NSArray *) thumbs - all thumbs.
-* (CDCircleOverlayView *) overlayView - a pointer to CDCircleOverlayView
-* (BOOL) inertiaEffect - it determines appearance of additional rotation after the last touch.
+#####CDCircle:
+* `dataSource` - data source of CDPieMenu.
+* `delegate` - delegate of CDPieMenu
+* `(UIColor *) circleColor` - Set this property to change color of a circle. It may be usable when you want to achieve specyfic effect (e.g. semi transparent thumbs, and coloured circle will create some effect)
+* `(NSArray *) thumbs` - all thumbs.
+* `(CDCircleOverlayView *)` overlayView - a pointer to CDCircleOverlayView
+* `(BOOL) inertiaEffect` - it determines appearance of additional rotation after the last touch.
 
-###CDCircleThumb:
-* (CDIconView *)iconView - a pointer to thumb's CDIconView
-* (UIColor *)separatorColor - color of a separator
-* separatorStyle - it can be CDCircleThumbsSeparatorNone or CDCircleThumbsSeparatorBasic. Style of a separator.
-* (BOOL)gradientFill - If gradientFill is set to NO, a thumb is coloured with solid color
-* (NSArray *) gradientColors - colors of thumb's gradient.
-* (NSArray *) colorsLocations - locations of colors in a gradient
-* (UIColor *) arcColor - if gradientFill is set to 'NO' we can set thumb's color using this property.
+#####CDCircleThumb:
+* `(CDIconView *)iconView` - a pointer to thumb's CDIconView
+* `(UIColor *)separatorColor` - color of a separator
+* `separatorStyle` - it can be CDCircleThumbsSeparatorNone or CDCircleThumbsSeparatorBasic. Style of a separator.
+* `(BOOL)gradientFill` - If gradientFill is set to NO, a thumb is coloured with solid color
+* `(NSArray *) gradientColors` - colors of thumb's gradient.
+* `(NSArray *) colorsLocations` - locations of colors in a gradient
+* `(UIColor *) arcColor` - if gradientFill is set to 'NO' we can set thumb's color using this property.
 
 
 ###CDIconView:
-* highlitedIconColor - color of an image when a thumb is selected
+* `highlitedIconColor` - color of an image when a thumb is selected
 
 ###CDCircleOverlayView:
-* overlayThumb - pointer to a thumb which is the selector (central thumb)
+* `overlayThumb` - pointer to a thumb which is the selector (central thumb)
 
 
 Samples
@@ -121,10 +117,8 @@ CDPieMenu has been mentioned on:
 **Thank you guys for promotion**
 
 
-About me
-========
+###About me:
 
 If you have got any question, feel free to mail me at me@wczekalski.com
----------------------------------------------------------------------------------
-I want to hear from you if you use my code in your app. Just send me a message with a link to the AppStore
-------------------------------------------
+
+[Twitter @wczekalski](http://twitter.com/wczekalski)
