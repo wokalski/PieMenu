@@ -28,20 +28,20 @@
 -(void) drawRect:(CGRect)rect {
     [super drawRect:rect];
     if (image != nil) {
-    if (selected == YES) {
-    CGContextRef context = UIGraphicsGetCurrentContext();
-        CGContextTranslateCTM(context, 0, image.size.height);
-        CGContextScaleCTM(context, 1.0, -1.0);
-        CGContextSetBlendMode(context, kCGBlendModeColor);
-        CGContextClipToMask(context, self.bounds, image.CGImage); // this restricts drawing to within alpha channel
-        CGContextSetFillColorWithColor(context, self.highlitedIconColor.CGColor); // this is your color,  a light reddish tint
-        
-        CGContextFillRect(context, rect);
-        
+        if (selected == YES) {
+            CGContextRef context = UIGraphicsGetCurrentContext();
+            CGContextTranslateCTM(context, 0, image.size.height);
+            CGContextScaleCTM(context, 1.0, -1.0);
+            CGContextSetBlendMode(context, kCGBlendModeColor);
+            CGContextClipToMask(context, self.bounds, image.CGImage); // this restricts drawing to within alpha channel
+            CGContextSetFillColorWithColor(context, self.highlitedIconColor.CGColor); // this is your color,  a light reddish tint
+            
+            CGContextFillRect(context, rect);
+            
+        }
+        else {[image drawInRect:rect];}
     }
-    else {[image drawInRect:rect];}
-    }
-
+    
 }
 -(void) setIsSelected:(BOOL)isSelected {
     if (selected != isSelected) {

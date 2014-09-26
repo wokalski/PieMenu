@@ -18,7 +18,7 @@
 @synthesize circle, recognizer, path, numberOfSegments, separatorStyle, overlayView, separatorColor, ringWidth, circleColor, thumbs, overlay;
 @synthesize delegate, dataSource;
 @synthesize inertiaeffect;
-//Need to add property "NSInteger numberOfThumbs" and add this property to initializer definition, and property "CGFloat ringWidth equal to circle radius - path radius. 
+//Need to add property "NSInteger numberOfThumbs" and add this property to initializer definition, and property "CGFloat ringWidth equal to circle radius - path radius.
 
 //Circle radius is equal to rect / 2 , path radius is equal to rect1/2.
 
@@ -43,10 +43,7 @@
             CDCircleThumb * thumb = [[CDCircleThumb alloc] initWithShortCircleRadius:rect1.size.height/2 longRadius:frame.size.height/2 numberOfSegments:self.numberOfSegments];
             [self.thumbs addObject:thumb];
         }
-    
-       
-        
-            }
+    }
     return self;
 }
 
@@ -62,17 +59,14 @@
     [circle closePath];
     [circle fill];
     
-    
     CGRect rect1 = CGRectMake(0, 0, CGRectGetHeight(rect) - (2*ringWidth), CGRectGetWidth(rect) - (2*ringWidth));
     rect1.origin.x = rect.size.width / 2  - rect1.size.width / 2;
     rect1.origin.y = rect.size.height / 2  - rect1.size.height / 2;
-    
     
     path = [UIBezierPath bezierPathWithOvalInRect:rect1];
     [self.circleColor setFill];
     [path fill];
     CGContextRestoreGState(ctx);
-    
     
     //Drawing Thumbs
     CGFloat fNumberOfSegments = self.numberOfSegments;
@@ -80,24 +74,16 @@
     CGFloat totalRotation = 360.f / fNumberOfSegments;
     CGPoint centerPoint = CGPointMake(rect.size.width/2, rect.size.height/2);
     
-    
-    
-    
-    
     CGFloat deltaAngle;
     
     for (int i = 0; i < self.numberOfSegments; i++) {
-        
-
         CDCircleThumb * thumb = [self.thumbs objectAtIndex:i];
         thumb.tag = i;
         thumb.iconView.image = [self.dataSource circle:self iconForThumbAtRow:thumb.tag];
-
+        
         CGFloat radius = rect1.size.height/2 + ((rect.size.height/2 - rect1.size.height/2)/2) - thumb.yydifference;
         CGFloat x = centerPoint.x + (radius * cos(degreesToRadians(perSectionDegrees)));
         CGFloat yi = centerPoint.y + (radius * sin(degreesToRadians(perSectionDegrees)));
-        
-
         
         [thumb setTransform:CGAffineTransformMakeRotation(degreesToRadians((perSectionDegrees + kRotationDegrees)))];
         if (i==0) {
@@ -105,33 +91,24 @@
             [thumb.iconView setIsSelected:YES];
             self.recognizer.currentThumb = thumb;
         }
-       
         
         //set position of the thumb
         thumb.layer.position = CGPointMake(x, yi);
-        
-        
         perSectionDegrees += totalRotation;
         
-         [self addSubview:thumb];          
+        [self addSubview:thumb];
     }
     
     [self setTransform:CGAffineTransformRotate(self.transform,deltaAngle)];
-      
-    
-    
-    
-   
- }
+}
 
 -(void) tapped: (CDCircleGestureRecognizer *) arecognizer{
     if (arecognizer.ended == NO) {
-    CGPoint point = [arecognizer locationInView:self];
-    if ([path containsPoint:point] == NO) {
-        
-    [self setTransform:CGAffineTransformRotate([self transform], [arecognizer rotation])];
+        CGPoint point = [arecognizer locationInView:self];
+        if ([path containsPoint:point] == NO) {
+            [self setTransform:CGAffineTransformRotate([self transform], [arecognizer rotation])];
+        }
     }
-}
 }
 
 @end

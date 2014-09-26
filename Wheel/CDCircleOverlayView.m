@@ -29,7 +29,7 @@
         CGRect rect1 = CGRectMake(0, 0, CGRectGetHeight(self.circle.frame) - (2*circle.ringWidth), CGRectGetWidth(self.circle.frame) - (2*circle.ringWidth));
         rect1.origin.x = self.circle.frame.size.width / 2  - rect1.size.width / 2;
         rect1.origin.y = 0;
-
+        
         
         overlayThumb = [[CDCircleThumb alloc] initWithShortCircleRadius:rect1.size.height/2 longRadius:self.circle.frame.size.height/2 numberOfSegments:self.circle.numberOfSegments];
         overlayThumb.gradientFill = NO;
@@ -39,9 +39,8 @@
         [self addSubview:overlayThumb];
         overlayThumb.arcColor = [UIColor colorWithRed:0.7 green:0.7 blue:0.7 alpha:0.3f];
         self.buttonCenter = CGPointMake(CGRectGetMidX(frame), CGRectGetMidY(self.circle.frame));
-
-              }
-
+    }
+    
     return self;
 }
 
