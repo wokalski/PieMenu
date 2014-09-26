@@ -19,11 +19,11 @@ void drawLinearGradient(CGContextRef context, CGPathRef path, CFArrayRef colors,
     CGPoint endPoint;
     
     
-        
+    
     switch (position) {
         case CGGradientPositionHorizontal:
             startPoint = CGPointMake(CGRectGetMidX(rect), CGRectGetMinY(rect));
-             endPoint = CGPointMake(CGRectGetMidX(rect), CGRectGetMaxY(rect));
+            endPoint = CGPointMake(CGRectGetMidX(rect), CGRectGetMaxY(rect));
             
             break;
             
@@ -31,7 +31,7 @@ void drawLinearGradient(CGContextRef context, CGPathRef path, CFArrayRef colors,
             startPoint = CGPointMake(CGRectGetMinX(rect), CGRectGetMidY(rect));
             endPoint = CGPointMake(CGRectGetMaxX(rect), CGRectGetMidY(rect));
             break;
-}
+    }
     
     CGContextSaveGState(context);
     CGContextAddPath(context, path);
@@ -44,7 +44,7 @@ void drawLinearGradient(CGContextRef context, CGPathRef path, CFArrayRef colors,
 }
 
 CGRect rectFor1PxStroke(CGRect rect) {
-    return CGRectMake(rect.origin.x + 0.5, rect.origin.y + 0.5, 
+    return CGRectMake(rect.origin.x + 0.5, rect.origin.y + 0.5,
                       rect.size.width - 1, rect.size.height - 1);
 }
 
