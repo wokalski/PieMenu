@@ -18,7 +18,7 @@
 @synthesize iconView;
 @synthesize gradientFill, gradientColors, arcColor;
 @synthesize colorsLocations;
-- (id)initWithShortCircleRadius:(CGFloat)shortRadius longRadius:(CGFloat)longRadius numberOfSegments: (CGFloat) sNumber
+- (instancetype)initWithShortCircleRadius:(CGFloat)shortRadius longRadius:(CGFloat)longRadius numberOfSegments: (CGFloat) sNumber
 
 {
     //Calculating suitable frame
@@ -67,7 +67,7 @@
         self.iconView = [[CDIconView alloc] initWithFrame:CGRectMake(CGRectGetMidX(frame), y, kIconViewWidth, kIconViewHeight)];
         self.iconView.center = CGPointMake(CGRectGetMidX(frame), y);
         [self addSubview:self.iconView];
-        self.gradientColors =  [NSArray arrayWithObjects:(id)[UIColor blackColor].CGColor,(id)[UIColor grayColor].CGColor,  nil];
+        self.gradientColors =  @[(id)[UIColor blackColor].CGColor,(id)[UIColor grayColor].CGColor];
     }
     return self;
 }
@@ -130,7 +130,7 @@
             else {
                 for (int i = 0; i < [colorsLocations count]; i++) {
                     
-                    la[i] = [[colorsLocations objectAtIndex:i] floatValue];
+                    la[i] = [colorsLocations[i] floatValue];
                 }
             }
         }

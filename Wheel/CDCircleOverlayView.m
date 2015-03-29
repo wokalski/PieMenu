@@ -17,7 +17,7 @@
 
 @implementation CDCircleOverlayView
 @synthesize circle, controlPoint, buttonCenter, overlayThumb;
-- (id)initWithCircle:(CDCircle *)cicle
+- (instancetype)initWithCircle:(CDCircle *)cicle
 {
     CGRect frame = cicle.frame;
     self = [super initWithFrame:frame];

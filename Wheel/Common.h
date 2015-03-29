@@ -18,12 +18,12 @@
 @interface Common : NSObject
 
 
-typedef enum {
+typedef NS_ENUM(NSInteger, CGGradientPosition) {
     CGGradientPositionVertical = 1,
     CGGradientPositionHorizontal
-} CGGradientPosition;
+} ;
 
-void drawLinearGradient(CGContextRef context, CGPathRef  path, CFArrayRef colors, CGGradientPosition position, CGFloat locations[], CGRect rect);
+extern void drawLinearGradient(CGContextRef context, CGPathRef  path, CFArrayRef colors, CGGradientPosition position, CGFloat locations[], CGRect rect);
 
 CGRect rectFor1PxStroke(CGRect rect);
 @end

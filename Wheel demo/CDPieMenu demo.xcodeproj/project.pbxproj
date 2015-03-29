@@ -14,42 +14,37 @@
 		3C24BF51154FA74300084C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF50154FA74300084C39 /* main.m */; };
 		3C24BF55154FA74300084C39 /* WheelDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF54154FA74300084C39 /* WheelDemoAppDelegate.m */; };
 		3C24BF58154FA74300084C39 /* WheelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24BF57154FA74300084C39 /* WheelDemoViewController.m */; };
-		3C24BF5B154FA74300084C39 /* WheelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF59154FA74300084C39 /* WheelDemoViewController.xib */; };
 		3C24BF76154FA80200084C39 /* iPod Click.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF75154FA80200084C39 /* iPod Click.aiff */; };
 		3C24BF78154FA80C00084C39 /* icon_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C24BF77154FA80C00084C39 /* icon_arrow_up.png */; };
 		3C24BF7D154FA86000084C39 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C24BF7C154FA86000084C39 /* AudioToolbox.framework */; };
 		3C24BF7F154FA86D00084C39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C24BF7E154FA86D00084C39 /* QuartzCore.framework */; };
-		DD54FB2816F8DF5A00697AF3 /* CDCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB1D16F8DF5A00697AF3 /* CDCircle.m */; };
-		DD54FB2916F8DF5A00697AF3 /* CDCircleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB1F16F8DF5A00697AF3 /* CDCircleGestureRecognizer.m */; };
-		DD54FB2A16F8DF5A00697AF3 /* CDCircleOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB2116F8DF5A00697AF3 /* CDCircleOverlayView.m */; };
-		DD54FB2B16F8DF5A00697AF3 /* CDCircleThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB2316F8DF5A00697AF3 /* CDCircleThumb.m */; };
-		DD54FB2C16F8DF5A00697AF3 /* CDIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB2516F8DF5A00697AF3 /* CDIconView.m */; };
-		DD54FB2D16F8DF5A00697AF3 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = DD54FB2716F8DF5A00697AF3 /* Common.m */; };
+		C9472B4519EAC8A00089C1E2 /* CDSpinGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = C9472B4419EAC8A00089C1E2 /* CDSpinGestureRecognizer.m */; };
+		C9485E9819D77A9200B0B2E7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9485E9719D77A9200B0B2E7 /* Storyboard.storyboard */; };
 		DD54FB2F16F8DF7C00697AF3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD54FB2E16F8DF7C00697AF3 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C24BF40154FA74300084C39 /* Wheel demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheel demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C24BF40154FA74300084C39 /* CDPieMenu demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CDPieMenu demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C24BF44154FA74300084C39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3C24BF46154FA74300084C39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C24BF48154FA74300084C39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3C24BF4C154FA74300084C39 /* Wheel demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wheel demo-Info.plist"; sourceTree = "<group>"; };
+		3C24BF4C154FA74300084C39 /* CDPieMenu demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDPieMenu demo-Info.plist"; sourceTree = "<group>"; };
 		3C24BF4E154FA74300084C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C24BF50154FA74300084C39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3C24BF52154FA74300084C39 /* Wheel demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wheel demo-Prefix.pch"; sourceTree = "<group>"; };
+		3C24BF52154FA74300084C39 /* CDPieMenu demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDPieMenu demo-Prefix.pch"; sourceTree = "<group>"; };
 		3C24BF53154FA74300084C39 /* WheelDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WheelDemoAppDelegate.h; sourceTree = "<group>"; };
 		3C24BF54154FA74300084C39 /* WheelDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelDemoAppDelegate.m; sourceTree = "<group>"; };
 		3C24BF56154FA74300084C39 /* WheelDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WheelDemoViewController.h; sourceTree = "<group>"; };
-		3C24BF57154FA74300084C39 /* WheelDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelDemoViewController.m; sourceTree = "<group>"; };
-		3C24BF5A154FA74300084C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WheelDemoViewController.xib; sourceTree = "<group>"; };
+		3C24BF57154FA74300084C39 /* WheelDemoViewController.m */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = WheelDemoViewController.m; sourceTree = "<group>"; tabWidth = 4; };
 		3C24BF75154FA80200084C39 /* iPod Click.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "iPod Click.aiff"; sourceTree = "<group>"; };
 		3C24BF77154FA80C00084C39 /* icon_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_arrow_up.png; path = ../icon_arrow_up.png; sourceTree = "<group>"; };
 		3C24BF7C154FA86000084C39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3C24BF7E154FA86D00084C39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C9472B4319EAC8A00089C1E2 /* CDSpinGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSpinGestureRecognizer.h; sourceTree = "<group>"; };
+		C9472B4419EAC8A00089C1E2 /* CDSpinGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSpinGestureRecognizer.m; sourceTree = "<group>"; };
+		C9485E9719D77A9200B0B2E7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		DD54FB1C16F8DF5A00697AF3 /* CDCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircle.h; sourceTree = "<group>"; };
 		DD54FB1D16F8DF5A00697AF3 /* CDCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircle.m; sourceTree = "<group>"; };
-		DD54FB1E16F8DF5A00697AF3 /* CDCircleGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleGestureRecognizer.h; sourceTree = "<group>"; };
-		DD54FB1F16F8DF5A00697AF3 /* CDCircleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleGestureRecognizer.m; sourceTree = "<group>"; };
 		DD54FB2016F8DF5A00697AF3 /* CDCircleOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleOverlayView.h; sourceTree = "<group>"; };
 		DD54FB2116F8DF5A00697AF3 /* CDCircleOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCircleOverlayView.m; sourceTree = "<group>"; };
 		DD54FB2216F8DF5A00697AF3 /* CDCircleThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCircleThumb.h; sourceTree = "<group>"; };
@@ -90,7 +85,7 @@
 		3C24BF41154FA74300084C39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C24BF40154FA74300084C39 /* Wheel demo.app */,
+				3C24BF40154FA74300084C39 /* CDPieMenu demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +109,7 @@
 				3C24BF54154FA74300084C39 /* WheelDemoAppDelegate.m */,
 				3C24BF56154FA74300084C39 /* WheelDemoViewController.h */,
 				3C24BF57154FA74300084C39 /* WheelDemoViewController.m */,
-				3C24BF59154FA74300084C39 /* WheelDemoViewController.xib */,
+				C9485E9719D77A9200B0B2E7 /* Storyboard.storyboard */,
 				DD54FB1B16F8DF5A00697AF3 /* Wheel */,
 				3C24BF4B154FA74300084C39 /* Supporting Files */,
 			);
@@ -126,10 +121,10 @@
 			children = (
 				3C24BF77154FA80C00084C39 /* icon_arrow_up.png */,
 				3C24BF75154FA80200084C39 /* iPod Click.aiff */,
-				3C24BF4C154FA74300084C39 /* Wheel demo-Info.plist */,
+				3C24BF4C154FA74300084C39 /* CDPieMenu demo-Info.plist */,
 				3C24BF4D154FA74300084C39 /* InfoPlist.strings */,
 				3C24BF50154FA74300084C39 /* main.m */,
-				3C24BF52154FA74300084C39 /* Wheel demo-Prefix.pch */,
+				3C24BF52154FA74300084C39 /* CDPieMenu demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,8 +134,8 @@
 			children = (
 				DD54FB1C16F8DF5A00697AF3 /* CDCircle.h */,
 				DD54FB1D16F8DF5A00697AF3 /* CDCircle.m */,
-				DD54FB1E16F8DF5A00697AF3 /* CDCircleGestureRecognizer.h */,
-				DD54FB1F16F8DF5A00697AF3 /* CDCircleGestureRecognizer.m */,
+				C9472B4319EAC8A00089C1E2 /* CDSpinGestureRecognizer.h */,
+				C9472B4419EAC8A00089C1E2 /* CDSpinGestureRecognizer.m */,
 				DD54FB2016F8DF5A00697AF3 /* CDCircleOverlayView.h */,
 				DD54FB2116F8DF5A00697AF3 /* CDCircleOverlayView.m */,
 				DD54FB2216F8DF5A00697AF3 /* CDCircleThumb.h */,
@@ -157,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C24BF3F154FA74300084C39 /* Wheel demo */ = {
+		3C24BF3F154FA74300084C39 /* CDPieMenu demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C24BF5E154FA74300084C39 /* Build configuration list for PBXNativeTarget "Wheel demo" */;
+			buildConfigurationList = 3C24BF5E154FA74300084C39 /* Build configuration list for PBXNativeTarget "CDPieMenu demo" */;
 			buildPhases = (
 				3C24BF3C154FA74300084C39 /* Sources */,
 				3C24BF3D154FA74300084C39 /* Frameworks */,
@@ -169,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = "Wheel demo";
+			name = "CDPieMenu demo";
 			productName = "Wheel demo";
-			productReference = 3C24BF40154FA74300084C39 /* Wheel demo.app */;
+			productReference = 3C24BF40154FA74300084C39 /* CDPieMenu demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,9 +176,9 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WheelDemo;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0600;
 			};
-			buildConfigurationList = 3C24BF3A154FA74200084C39 /* Build configuration list for PBXProject "Wheel demo" */;
+			buildConfigurationList = 3C24BF3A154FA74200084C39 /* Build configuration list for PBXProject "CDPieMenu demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -195,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C24BF3F154FA74300084C39 /* Wheel demo */,
+				3C24BF3F154FA74300084C39 /* CDPieMenu demo */,
 			);
 		};
 /* End PBXProject section */
@@ -206,10 +201,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C24BF4F154FA74300084C39 /* InfoPlist.strings in Resources */,
-				3C24BF5B154FA74300084C39 /* WheelDemoViewController.xib in Resources */,
 				3C24BF76154FA80200084C39 /* iPod Click.aiff in Resources */,
 				3C24BF78154FA80C00084C39 /* icon_arrow_up.png in Resources */,
 				DD54FB2F16F8DF7C00697AF3 /* Default-568h@2x.png in Resources */,
+				C9485E9819D77A9200B0B2E7 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,15 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9472B4519EAC8A00089C1E2 /* CDSpinGestureRecognizer.m in Sources */,
 				3C24BF51154FA74300084C39 /* main.m in Sources */,
 				3C24BF55154FA74300084C39 /* WheelDemoAppDelegate.m in Sources */,
 				3C24BF58154FA74300084C39 /* WheelDemoViewController.m in Sources */,
-				DD54FB2816F8DF5A00697AF3 /* CDCircle.m in Sources */,
-				DD54FB2916F8DF5A00697AF3 /* CDCircleGestureRecognizer.m in Sources */,
-				DD54FB2A16F8DF5A00697AF3 /* CDCircleOverlayView.m in Sources */,
-				DD54FB2B16F8DF5A00697AF3 /* CDCircleThumb.m in Sources */,
-				DD54FB2C16F8DF5A00697AF3 /* CDIconView.m in Sources */,
-				DD54FB2D16F8DF5A00697AF3 /* Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,14 +233,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3C24BF59154FA74300084C39 /* WheelDemoViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C24BF5A154FA74300084C39 /* en */,
-			);
-			name = WheelDemoViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -258,14 +240,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -275,10 +260,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -287,20 +276,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -312,9 +307,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Wheel demo/Wheel demo-Prefix.pch";
-				INFOPLIST_FILE = "Wheel demo/Wheel demo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Wheel demo/CDPieMenu demo-Prefix.pch";
+				INFOPLIST_FILE = "Wheel demo/CDPieMenu demo-Info.plist";
+				PRODUCT_NAME = "CDPieMenu demo";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -323,9 +318,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Wheel demo/Wheel demo-Prefix.pch";
-				INFOPLIST_FILE = "Wheel demo/Wheel demo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Wheel demo/CDPieMenu demo-Prefix.pch";
+				INFOPLIST_FILE = "Wheel demo/CDPieMenu demo-Info.plist";
+				PRODUCT_NAME = "CDPieMenu demo";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -333,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C24BF3A154FA74200084C39 /* Build configuration list for PBXProject "Wheel demo" */ = {
+		3C24BF3A154FA74200084C39 /* Build configuration list for PBXProject "CDPieMenu demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C24BF5C154FA74300084C39 /* Debug */,
@@ -342,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C24BF5E154FA74300084C39 /* Build configuration list for PBXNativeTarget "Wheel demo" */ = {
+		3C24BF5E154FA74300084C39 /* Build configuration list for PBXNativeTarget "CDPieMenu demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C24BF5F154FA74300084C39 /* Debug */,

@@ -11,14 +11,11 @@
 #import <UIKit/UIKit.h>
 #import "CDCircle.h"
 #import "CDCircleThumb.h"
-@interface CDCircleOverlayView : UIView {
-    CDCircleThumb  *overlayThumb;
-}
-@property (nonatomic, strong) CDCircle *circle;
+
+@interface CDCircleOverlayView : UIView
+@property (nonatomic, weak) CDCircle *circle;
 @property (nonatomic, assign) CGPoint controlPoint;
 @property (nonatomic, assign) CGPoint buttonCenter;
 @property (nonatomic, strong) CDCircleThumb *overlayThumb;
-
--(id) initWithCircle: (CDCircle *) cicle;
-
+- (instancetype)initWithCircle:(CDCircle *)cicle NS_DESIGNATED_INITIALIZER;
 @end

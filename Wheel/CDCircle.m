@@ -7,13 +7,16 @@
  
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
 #define degreesToRadians(x) (M_PI * (x) / 180.0)
 #define kRotationDegrees 90
+
 #import "CDCircle.h"
 #import <QuartzCore/QuartzCore.h>
 #import "CDCircleGestureRecognizer.h"
 #import "CDCircleThumb.h"
 #import "CDCircleOverlayView.h"
+
 @implementation CDCircle
 @synthesize circle, recognizer, path, numberOfSegments, separatorStyle, overlayView, separatorColor, ringWidth, circleColor, thumbs, overlay;
 @synthesize delegate, dataSource;
@@ -22,7 +25,7 @@
 
 //Circle radius is equal to rect / 2 , path radius is equal to rect1/2.
 
--(id) initWithFrame:(CGRect)frame numberOfSegments: (NSInteger) nSegments ringWidth:(CGFloat)width {
+-(instancetype) initWithFrame:(CGRect)frame numberOfSegments: (NSInteger) nSegments ringWidth:(CGFloat)width {
     self = [super initWithFrame:frame];
     
     if (self) {
@@ -89,7 +92,7 @@
     for (int i = 0; i < self.numberOfSegments; i++) {
         
 
-        CDCircleThumb * thumb = [self.thumbs objectAtIndex:i];
+        CDCircleThumb * thumb = (self.thumbs)[i];
         thumb.tag = i;
         thumb.iconView.image = [self.dataSource circle:self iconForThumbAtRow:thumb.tag];
 
@@ -117,11 +120,6 @@
     }
     
     [self setTransform:CGAffineTransformRotate(self.transform,deltaAngle)];
-      
-    
-    
-    
-   
  }
 
 -(void) tapped: (CDCircleGestureRecognizer *) arecognizer{

@@ -33,6 +33,6 @@
 @property (nonatomic, strong) NSArray *gradientColors;
 @property (nonatomic, strong) UIColor *arcColor;
 
--(id) initWithShortCircleRadius: (CGFloat) shortRadius longRadius: (CGFloat) longRadius numberOfSegments: (CGFloat) sNumber;
+-(instancetype) initWithShortCircleRadius: (CGFloat) shortRadius longRadius: (CGFloat) longRadius numberOfSegments: (CGFloat) sNumber NS_DESIGNATED_INITIALIZER;
 
 @end

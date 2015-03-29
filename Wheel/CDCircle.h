@@ -7,23 +7,25 @@
  
  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+
 #import <UIKit/UIKit.h>
 
-typedef enum {
+typedef NS_ENUM(NSInteger, CDCircleThumbsSeparator) {
     CDCircleThumbsSeparatorNone,
     CDCircleThumbsSeparatorBasic
-}CDCircleThumbsSeparator;
+};
 
 @class CDCircle, CDCircleThumb, CDCircleOverlayView;
+
 @protocol CDCircleDelegate <NSObject> 
 @required
--(void) circle: (CDCircle *) circle didMoveToSegment:(NSInteger) segment thumb: (CDCircleThumb *) thumb;
-
+- (void)circle:(CDCircle *)circle didMoveToSegment:(NSInteger)segment thumb:(CDCircleThumb *)thumb;
 @end
+
 @protocol CDCircleDataSource <NSObject>
--(UIImage *) circle: (CDCircle *) circle iconForThumbAtRow: (NSInteger) row;
-
+- (UIImage *)circle:(CDCircle *) circle iconForThumbAtRow:(NSInteger)row;
 @end
+
 @class CDCircleGestureRecognizer;
 
 @interface CDCircle : UIView
@@ -38,12 +40,10 @@ typedef enum {
 @property (nonatomic, strong) CDCircleOverlayView *overlayView;
 @property (nonatomic, assign) CGFloat ringWidth;
 @property (nonatomic, assign) BOOL overlay;
-
-@property (nonatomic, strong) id <CDCircleDelegate> delegate;
-@property (nonatomic, strong) id <CDCircleDataSource> dataSource;
-
+@property (nonatomic, weak) id <CDCircleDelegate> delegate;
+@property (nonatomic, weak) id <CDCircleDataSource> dataSource;
 @property (nonatomic, strong) UIColor *circleColor;
 
--(id) initWithFrame:(CGRect)frame numberOfSegments: (NSInteger) nSegments ringWidth: (CGFloat) width;
+- (instancetype)initWithFrame:(CGRect)frame numberOfSegments:(NSInteger)nSegments ringWidth:(CGFloat)width NS_DESIGNATED_INITIALIZER;
 
 @end

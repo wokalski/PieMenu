@@ -13,12 +13,12 @@
 @implementation CDIconView
 @synthesize image, selected, highlitedIconColor;
 
--(id) initWithFrame:(CGRect)frame {
+-(instancetype) initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     
     if (self) {
         selected = NO;
-        self.opaque =NO;
+        self.opaque = NO;
         self.backgroundColor = [UIColor clearColor];
         self.highlitedIconColor = [UIColor colorWithRed:0.75 green:0.00f blue:0.00f alpha:1.00f];
     }
