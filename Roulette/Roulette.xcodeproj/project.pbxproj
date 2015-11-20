@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C91237BF1BFBB3B400D74455 /* Roulette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91237BE1BFBB3B400D74455 /* Roulette.swift */; };
+		C986FCB81BFE6763007EFDC2 /* Interation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C986FCB71BFE6763007EFDC2 /* Interation.swift */; };
 		C9F15C921BE532C1003F4CDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F15C911BE532C1003F4CDA /* AppDelegate.swift */; };
 		C9F15C941BE532C1003F4CDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F15C931BE532C1003F4CDA /* ViewController.swift */; };
 		C9F15C971BE532C1003F4CDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F15C951BE532C1003F4CDA /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		C91237BE1BFBB3B400D74455 /* Roulette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roulette.swift; sourceTree = "<group>"; };
 		C98FE21D1BEB8D5D00412CB2 /* Play.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Play.playground; sourceTree = "<group>"; };
+		C986FCB71BFE6763007EFDC2 /* Interation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interation.swift; sourceTree = "<group>"; };
 		C9F15C8E1BE532C1003F4CDA /* Roulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F15C911BE532C1003F4CDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9F15C931BE532C1003F4CDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				C9F15C931BE532C1003F4CDA /* ViewController.swift */,
 				C91237BE1BFBB3B400D74455 /* Roulette.swift */,
 				C98FE21D1BEB8D5D00412CB2 /* Play.playground */,
+				C986FCB71BFE6763007EFDC2 /* Interation.swift */,
 				C9F15C951BE532C1003F4CDA /* Main.storyboard */,
 				C9F15C981BE532C1003F4CDA /* Assets.xcassets */,
 				C9F15C9A1BE532C1003F4CDA /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C986FCB81BFE6763007EFDC2 /* Interation.swift in Sources */,
 				C91237BF1BFBB3B400D74455 /* Roulette.swift in Sources */,
 				C9F15C941BE532C1003F4CDA /* ViewController.swift in Sources */,
 				C9F15C921BE532C1003F4CDA /* AppDelegate.swift in Sources */,
