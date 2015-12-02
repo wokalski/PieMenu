@@ -1,8 +1,8 @@
 //
-//  Interation.swift
+//  Geometry.swift
 //  Roulette
 //
-//  Created by Wojciech Czekalski on 19.11.2015.
+//  Created by Wojciech Czekalski on 20.11.2015.
 //  Copyright © 2015 wczekalski. All rights reserved.
 //
 
@@ -15,8 +15,12 @@ struct Angle {
     
     // In radians
     func measure() -> CGFloat {
+        guard a != vertex && b != vertex else {
+            return 0
+        }
+        
         let f = { (x: CGPoint) in atan2(x.y - self.vertex.y, x.x - self.vertex.x) }
-        return f(a) - f(b)
+        return f(b) - f(a)
     }
 }
 
@@ -25,6 +29,8 @@ extension CGRect {
         return CGPoint(x: CGRectGetMidX(self), y: CGRectGetMidY(self))
     }
 }
+
+typealias Translation = CGPoint
 
 extension CGPoint {
     
@@ -37,4 +43,14 @@ extension CGPoint {
     }
 }
 
-typealias Translation = CGPoint
+extension CGPoint {
+    func scale(a: CGFloat) -> CGPoint {
+        return CGPoint(x: self.x*a, y: self.y*a)
+    }
+}
+
+extension CGRect {
+    func inscribedCircleRadius() -> CGFloat {
+        return self.size.height/2
+    }
+}
