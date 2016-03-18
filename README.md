@@ -1,3 +1,10 @@
+Development of this control is suspended
+---
+I worked at a better version of this from time to time. I mainly focused on tvOS support, but with minor improvements it will work for watchOS/iOS as well. I will get back to this when I finish `Diff.swift` and have some free time.
+
+Until then, feel free to submit issues but please do not expect me to submit patches.
+
+---
 CDPieMenu by Wojtek Czekalski (wczekalski)
 =========
 
